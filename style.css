@@ -1,5 +1,79 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+nav {
+  text-align: center;
+  margin: 15px 0;
+}
+
+nav a {
+  padding: 10px;
+  background-color: gray;
+  text-decoration: none;
+  margin: 0 5px;
+ 
+}
+
+
+nav a:hover {
+  background-color: darkgray;
+}
+
+
+#featured-property figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+
+#details {
+  background-color: red;
+  overflow: hidden;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+#details > div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+
+#details h3 {
+   margin-bottom: 10px;
+}
+
+
+#details a {
+text-decoration: none;
+}
+
+#details a:hover {
+  text-decoration: underline;
 }
